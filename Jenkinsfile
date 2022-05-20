@@ -17,6 +17,7 @@ pipeline {
         sh '''
         echo "Pruebas"
         ls
+        echo "webhook"
         '''
       }
     }
