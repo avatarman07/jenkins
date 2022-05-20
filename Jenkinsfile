@@ -4,9 +4,9 @@ pipeline {
     stage('Build') {
       steps {
         echo "Do something"
-        hostname
-        pwd
-        ls
+        echo hostname
+        echo pwd
+        echo ls
       }
     }
     stage('Test') {
