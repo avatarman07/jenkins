@@ -14,7 +14,10 @@ pipeline {
     }
     stage('Test') {
       steps {
+        sh '''
         echo "Pruebas"
+        ls
+        '''
       }
     }
     stage('Deploy') {
