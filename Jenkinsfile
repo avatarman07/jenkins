@@ -3,10 +3,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+        sh '''
         echo "Do something"
-        echo hostname
-        echo pwd
-        echo ls
+        hostname
+        pwd
+        ls
+        '''
       }
     }
     stage('Test') {
