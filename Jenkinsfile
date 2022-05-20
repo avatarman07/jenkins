@@ -8,6 +8,7 @@ pipeline {
         hostname
         pwd
         ls
+        touch "abre.txt"
         '''
       }
     }
