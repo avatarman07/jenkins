@@ -8,7 +8,7 @@ pipeline {
         hostname
         pwd
         ls
-        touch "abre.txt"
+        echo "test1"
         '''
       }
     }
